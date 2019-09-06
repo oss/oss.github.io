@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: news, | Rutgers]]></title>
+  <link href="http://oss.rutgers.edu/blog/blog/categories/news-/atom.xml" rel="self"/>
+  <link href="http://oss.rutgers.edu/blog/"/>
+  <updated>2012-11-16T15:37:29-05:00</updated>
+  <id>http://oss.rutgers.edu/blog/</id>
+  <author>
+    <name><![CDATA[Rutgers Open System Solutions]]></name>
+    <email><![CDATA[oss@oss.rutgers.edu]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OSS Blog 2.0]]></title>
+    <link href="http://oss.rutgers.edu/blog/blog/2012/11/05/blog-2-dot-0/"/>
+    <updated>2012-11-05T16:06:00-05:00</updated>
+    <id>http://oss.rutgers.edu/blog/blog/2012/11/05/blog-2-dot-0</id>
+    <content type="html"><![CDATA[<p>We're back, now with a shiny new blog powered by <a href="http://octopress.org">Octopress</a>.</p>
+
+<p>While waiting for hurricane Sandy to knock the power out last week, I got around to looking at some of the code I had written for the last version of this blog and realized it really wasn't very good. I had also just recently deployed my own blog with Octopress, and learned enough <a href="http://compass-style.org/">sass</a> that I figured I could restyle it to look almost exactly like the old website. It turned out to be a <em>bit</em> more complicated than I expected ( I didn't realize how it resized things as you resize the window ), but I mananged to get it all working just in time for the power to go out.</p>
+]]></content>
+  </entry>
+  
+</feed>

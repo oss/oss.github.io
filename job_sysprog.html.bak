@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>Wanted: Student Systems Programmers</title>
+		<STYLE TYPE="text/css">
+		body{width:900px;color:#333;repeat-x;font-family:"Courier New", Courier, monospace;font-size:11px;text-align:left;line-height:16px;}
+		h1{font:normal 23px 'Lucida Grande',Geneva,Verdana,Arial,sans-serif;color:#333333;margin:0 0 10px 0;}
+		h2{font:bold 15px 'Lucida Grande',Geneva,Verdana,Arial,sans-serif;color:#333333;margin:0 0 7px 0;}
+		h3{font:bold 1.2em 'Lucida Grande',Geneva,Verdana,Arial,sans-serif;color:#333333;margin:0 0 0 0;}
+		h4{font:bold 1em 'Lucida Grande',Geneva,Verdana,Arial,sans-serif;color:#333333;margin:0 0 0 0;}
+		a:link{color:#3b5998;text-decoration:none;}
+		a:visited{color:#3b5998;text-decoration:none;}
+		a:hover{color:#3b5998;text-decoration:underline;}
+		a:active{color:#3b5998;text-decoration:underline;}
+		</STYLE>
+	</head>
+	<body>
+
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		<h1>Now Hiring: Student Developers, Sysadmins, and Hackers </h1>
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		<p>If you enjoy working on open source software or systems
+		administration, Open System Solutions (OSS) would like to 
+		have a word with you.</p>
+		<p>Dependable self-starters are sought for an opportunity to
+		work with the Enterprise Application Services: Enterprise
+		Messaging group in Rutgers University's Office of 
+		Information Technology.</p>
+		<p><strong>Responsibities:</strong> 
+		  <ul>
+		    <li>Work in a team environment to design and develop
+		    open source software, web applications, scripts, etc.
+		    used by members of the Rutgers community</li>
+		    <li>Configure and deploy open source software for use
+		    by the Rutgers community</li>
+		    <li>Configure and maintain Linux servers</li>
+		    <li>Build RPM software packages for the Rutgers
+		    community, when needed</li>
+		  </ul>
+		</p>
+		<p><strong>Requirements:</strong>
+		  <ul>
+		    <li>Currently a student with one or more years left at
+		    Rutgers</li>
+		    <li>Ability to work 12-20 hrs/wk on average during the
+		    semester</li>
+		    <li>Ability to work 20-30 hrs/wk during the Summer of 
+		    2018.</li>
+		    <li>Experience using the Linux/Unix command line.</li>
+		    <li>Willingness to work in a Linux-only environment</li>
+		    <li>Programming ability in at least one language
+		      <ul>
+			<li>CS111 or CS112 homework does not impress us</li>
+		      </ul>
+		    </li>
+		    <li>Ability to lift 30lbs</li>
+		  </ul>
+		</p>
+		<p><strong>Experience using any of the following is a plus,
+		 but not required:</strong>
+		<ul>
+		  <li>Databases (MySQL, MongoDB, PostgreSQL, etc)</li>
+		  <li>Version control systems (Git, SVN, Mercurial, etc)
+		  </li>
+		  <li>Backend web application frameworks in any language
+		  (Flask, Django, Sinatra, Ruby on Rails, etc)</li>
+		  <li>Software containers such as Docker</li>
+		  <li>Server provisioning software (Chef, Puppet, Ansible, 
+		  Salt, etc) a BIG plus</li>
+		</ul>
+		</p>
+		<p>Pay is based on experience and ability. Flexible hours.
+		Training provided.</p>
+		<p>To apply, please send a plain text or PDF copy of your
+		resume with two references to oss@oss.rutgers.edu</p>
+		<p>Resumes sent in any other format besides plain text or
+		PDF will not be considered. Anything resembling .doc or
+		.docx will be laughed at and shredded.</p>
+		<p>Job posting date: Oct 5 2017<br>
+		Application deadline: Nov 15 2017<br>
+                Position start date: Jan 2018<br>
+                Location: Hill Center, Busch Campus</p>
+	</body>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65116350-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+</html>

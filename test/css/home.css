@@ -1,0 +1,441 @@
+/* home page */
+
+/* media queries */
+/* Iphone 5s (portrait) ----------- */
+@media only screen and (max-width:400px) {
+/* Styles */
+html body {width: 100%;
+  overflow-x: hidden;
+  }
+div #banner2 {display: none;}
+
+body #div1{
+  min-height:230px;
+  max-height:230px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  }
+div #bkpic  {display: none;}
+body #div2{
+  width: 100%;
+  min-height:230px;
+  max-height:230px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+body #box1{min-width:70%;margin-left: 15%;}
+body #rutext{font-size: 3vw;line-height: 150%;color: black; font-weight: bold;}
+body #box1 > p {text-shadow: none;}
+body #intro{font-size: 2.5vw;color: black;}
+div .img{
+  width:80%;
+  min-width: 90px;
+  max-width: 110px;
+  height:auto;
+  margin: 0px;
+}
+div #bus, div #bookmark, div #news {
+  width:100%;
+  height:auto;
+  margin-left: 0;
+}
+body #hiddenline{
+  width: 100%;
+  height: 5%;
+  display:inline-block;
+  margin-top: 5px;
+  padding: 0;
+}
+div #line2, div #line3 {
+  height: 100%;
+  width: 100%;
+}
+body #div4 {
+  height: 110px;
+  padding-top: 20px;
+}
+div .a, div #down {font-size: 9px;}
+div .b {height: 11px; width: 11px;}
+
+div #div00 {
+  width: 80%;
+  height: 70px;
+  display: inline-block;
+}
+}
+
+/* Samsumg s6, Samsung note iphone 6, iphone 6 plus(portrait) ----------- */
+@media only screen and (max-width:550px) and (min-width:401px) {
+/* Styles */
+html body {width: 100%; overflow-x: hidden;  }
+div #banner2 {display: none;}
+body #div1{
+  min-height:260px;
+  max-height:260px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  }
+div #bkpic  {display: none;}
+body #div2{
+  width: 100%;
+  min-height:260px;
+  max-height:260px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+body #box1{min-width:70%;margin-left: 15%;margin-top: 60px;}
+body #rutext{font-size: 3vw;line-height: 150%;color: black; font-weight: bold;}
+body #box1 > p {text-shadow: none;}
+body #intro{font-size: 2.5vw;color: black;}
+div .img{
+  width:80%;
+  min-width: 90px;
+  max-width: 110px;
+  height:auto;
+  margin: 0px;
+}
+div #bus, div #bookmark, div #news {
+  width:100%;
+  height:auto;
+  margin-left: 0;
+}
+body #hiddenline{
+  width: 100%;
+  height: 5%;
+  display:inline-block;
+  margin-top: 5px;
+  padding: 0;
+}
+div #line2, div #line3 {
+  height: 100%;
+  width: 100%;
+}
+div .a, div #down {font-size: 10px;}
+div .b {height: 12px; width: 12px;}
+body #div4 {
+  height: 85px;
+  padding-top: 25px;
+}
+
+div #div00 {
+  width: 80%;
+  height: 80px;
+  display: inline-block;
+}
+}
+
+/* small tablets (portrait) ----------- */
+@media only screen and (max-width:750px) and (min-width:551px) {
+  div #div0 {
+    width: 100%;
+    height: 60px;
+    display: block;
+  }
+  body #div1{
+    width: 100%;
+    min-height:48vw;
+    max-height:49vw;
+  }
+  body #box1{min-width:70%; max-height:40vw; margin-left:28%; margin-top:90px;}
+  body #rutext{font-size: 2.1vw;font-weight: bold;}
+
+  body #intro{font-size: 1.8vw;}
+  div .img{
+    width:80%;
+    min-width: 110px;
+    max-width: 115px;
+    height:auto;
+    margin: 0px;
+  }
+  body #div4 {
+    height: 90px;
+    padding-top: 30px;
+  }
+  div .a, div #down {font-size: 12px;}
+  div .b {height: 14px; width: 14px;}
+
+  div #div00 {
+    width: 80%;
+    height: 60px;
+    display: inline-block;
+  }
+}
+
+/* large tablets, laptop screen (portrait) ----------- */
+@media only screen and (max-width:1200px) and (min-width:751px) {
+  body #div1{
+    width: 100%;
+    min-height:48vw;
+    max-height:50vw;
+  }
+  body #box1{min-width:62%; max-height:40vh; margin-left:34%; margin-top:14vh;}
+  body #rutext{font-size: 1.9vw;font-weight: bold;}
+
+  body #intro{font-size: 1.6vw;}
+  div .img{
+    width:80%;
+    min-width: 130px;
+    max-width: 140px;
+    height:auto;
+    margin: 0px;
+  }
+  body #div4 {     height: 100px;      padding-top: 40px;    }
+  div .a, div #down {font-size: 15px;}
+  div .b {height: 15px; width: 15px;}
+
+}
+
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{
+    margin: 0px;
+    width: 100%;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+/* external font */
+@font-face {
+    font-family: "roboto";
+    src: url(../assets/roboto-regular.ttf);
+}
+
+@font-face {
+    font-family: "micross";
+    src: url(../assets/micross.ttf);
+}
+
+.headline {
+  float: left;
+  width: 100%;
+  padding-left: 8%;
+  padding-top: 0;
+  padding-bottom: 3%;
+}
+.headtext {
+  font-family: "roboto";
+  font-size: 2.7vw;
+  font-weight: bold;
+  color: black;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* banner*/
+#banner {
+background: rgba(204, 0, 51, 0.9);
+position:fixed;
+top:0;
+height:60px;
+width: 100%;
+z-index: 100;
+-webkit-box-shadow: -1px 2px 21px -1px rgba(102,99,102,1);
+-moz-box-shadow: -1px 2px 21px -1px rgba(102,99,102,1);
+box-shadow: -1px 2px 21px -1px rgba(102,99,102,1);
+}
+
+.banner {
+    display: inline;
+    float:left;
+}
+#banner1 {
+  height:50px;
+  width: auto;
+}
+#rulogo {
+  width:auto;
+  height: 42px;
+  position: relative;
+  margin-top:11.5px;
+  margin-left: 11px;
+}
+#banner2  {
+  font-size: 17px;
+  color: #ffffff;
+  font-family: "roboto";
+  margin-top: 18px;
+  margin-left: 17px;
+}
+
+/*place holder*/
+#div0 {
+  display: none;
+}
+
+
+/* container of intro text and buttons*/
+#div2 {
+  height:100%;
+  width: 76%;
+  float:left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* introduction textbox*/
+
+#rutext {
+  color: #ffffff;
+  font-size: 18px; font-size: 1.6vw;
+  line-height: 200%;
+}
+#intro {
+  color: #ffffff;
+  font-size: 12px; font-size: 1.3vw;
+  font-family:"roboto"
+}
+
+#box1{
+  height:40vh;
+  width:50%;
+  margin-top: 15%;
+  margin-left: 36%;
+  align-content: center;
+}
+
+#box1 > p {
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+/* buttons*/
+.button {
+  height:auto;
+  width: auto;
+  display: inline;
+  padding: 0px;
+}
+.img {
+  width:38%;
+  height:auto;
+  margin-right: 10px;
+}
+
+/* bus section*/
+#div3 {
+  position:relative;
+  }
+
+
+/* pagebreaker after backgroung picture*/
+#hiddenline {
+  display: none;
+}
+
+.pagebreaker {
+height:30px;
+width: auto;
+position:relative;
+}
+
+/* bus news and bookmark sections*/
+.pic {
+  width:100%;
+  height:auto;
+  position:relative;
+}
+
+#bus, #bookmark, #news {
+  width:70%;
+  height:auto;
+  margin-left: 15%;
+}
+/* bottom background*/
+#div4 {
+  background-image: url("../assets/texture.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  height:120px;
+  width:100%;
+  position:absolute;
+  margin-top: 5%;
+  padding-top: 4%;
+  padding-bottom: 0px;
+}
+
+#div5 {
+  height:40%;
+  width: 100%;
+}
+a:link {
+  font-family: "roboto";
+  color:#ffffff;
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: #c4d6f5;
+    text-decoration: none;
+}
+
+/* footer*/
+.a { font-family: "roboto"; font-size: 15px; }
+.b {
+width:17px;
+height:17px;
+margin: 0;
+padding: 0;
+}
+
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{ display:inline; margin: 10 15 15 0;}
+
+.nav li div{ display:inline; width: 160px; height: 24px;}
+
+.btn {width:160px; height:auto; margin:0px 10px 0px 10px;}
+
+.nav li p:hover {cursor: pointer;} 
+
+#down {
+  width:100%;
+  height:20%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+text-align:center;
+font-family: "micross";
+font-size: 17px;
+color:#ffffff;
+padding-left: auto;
+padding-right: auto;
+clear: both;
+}
+
+/*go to top button*/
+#topimg  {
+   position: fixed;
+   right: 5%;
+   bottom:0;
+   width:60px;
+   height:auto;
+   padding: 5px;
+   text-decoration: none;
+   opacity: 1;
+   display: none;
+}
+
+#topimg:hover {
+   opacity: .5;
+}
+
+
+
+/*Jquery effects*/
+
+.active {
+    background-color:#556677;
+}

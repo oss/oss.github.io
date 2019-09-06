@@ -1,0 +1,214 @@
+.container {
+  padding-top: 8vw;
+  padding-bottom: 8vw;
+  padding-left: 14vw;
+  padding-right: 14vw;
+  width: inherit;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* ----- Nav bar -----*/
+
+.navbar-default {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.container-fluid {
+  padding-left: 13vw;
+  padding-right: 13vw;
+  background-color:
+}
+
+/* ----- Welcome ----- */
+.welcome {
+  height: 100vh;
+  background-color: #2E2E2E;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Inconsolata', monospace;
+  display: flex;
+  align-items: center;
+}
+
+.element, .cmd-prompt {
+  font-family: 'Inconsolata', monospace;
+}
+
+.welcome p {
+  visibility: hidden;
+  font-family: 'Inconsolata', monospace;
+}
+
+.welcome img {
+  display: block;
+  margin: auto;
+  visibility: hidden;
+}
+
+/* ----- Typed.js customization ----- */
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* ----- Our Projects -----*/
+
+.projects img {
+  border-radius: 3%;
+  padding-bottom: 15px;
+  width: 100%;
+  display: block;
+}
+
+h4 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.3em;
+  padding-top: 1.5em;
+  color: #cc0033;
+}
+
+/* ----- Our Team ----- */
+
+.our-team h1 {
+  padding-bottom: 1em;
+}
+
+.img-circle {
+  border-radius=50%;
+  width: 100%;
+  max-width: 200px;
+}
+
+.person {
+  text-align: center;
+}
+
+.our-team {
+  background-color: #2E2E2E;
+  color: white;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: 'Inconsolata', monospace;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+/* Info/Github handle */
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+  color: #A8A8A8;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+
+/* TODO: FIX THIS!! */
+.info-link a: hover {
+  color: #737373;
+}
+
+.info-link {
+  color: #A8A8A8;
+}
+
+/* ----- Current Job Postings ----- */
+
+/* Headings are in h4 under "Our Projects" */
+
+.subtitle {
+  text-align: center;
+}
+
+/* TODO: FIX THIS TOO!! */
+
+.job-postings a, .job-postings a:hover, .job-postings a:focus, .job-postings a:active {
+    background: #cc0033;
+    border: 0px;
+}
+
+.job-postings a:hover {
+    background: #9D0028;
+}
+
+.job-postings a:active {
+    background: #9D0028;
+}
+
+/* ----- Footer ----- */
+
+footer {
+  color: white;
+  background-color: #2E2E2E;
+}
+
+footer.container {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.search-contact {
+  padding: 0;
+}
+
+.search {
+  padding-left: 0;
+}
+
+.copyright {
+  align-items: center;
+}
+
+.contact-icons li {
+  display: inline;
+  padding-left: 0;
+}
+
+.icon {
+  max-width: 35px;
+  max-height: 35px;
+  padding-right: 5px;
+}
+
+footer p {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin: 0;
+  text-align: center;
+}
